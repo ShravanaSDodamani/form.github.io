@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form 2</title>
+    <style>
+        #one:hover{
+           background-color: brown;
+        }
+    </style>
+</head>
+<body bgcolor="#9EDDFF">
+    <form action="Imsg.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="">Salutation</label><br>
+            
+            <select name="sal" id="sal">
+               <option value="--None--">--None--</option>
+               <option value="Mr.">Mr.</option>
+               <option value="Mrs.">Mrs.</option>
+               <option value="Dr.">Dr.</option>
+
+            </select>
+            <br><br>
+            
+<label for="fname">First Name</label>
+&nbsp;
+<input type="text" name="fname" id="fname">
+<br><br>
+
+<label for="mname">Middle Name</label>
+&nbsp;
+<input type="text" name="mname" id="mname">
+<br><br>
+
+<label for="lname">Last Name</label>
+&nbsp;
+<input type="text" name="lname" id="lname">
+<br><br>
+
+<label for="email">Email</label>
+&nbsp;
+<input type="email" name="email" id="email">
+<br><br>
+
+<label for="dob">DOB</label>
+&nbsp;
+<input type="date" name="dob" id="dob">
+<br><br>
+
+<label for="age">Age</label>
+&nbsp;
+<input type="age" placeholder="Ex:18-60" name="age" id="age">
+<br><br>
+<label for="contact">contact</label>
+&nbsp;&nbsp;
+<input type="contact" name="contact" id="contact">
+<br><br>
+<label for="add">Address</label>
+        <br><br>
+        <textarea name="add" id="add" cols="30" rows="5"></textarea>
+        <br><br>
+
+<label for="">Gender</label>
+<br><br>
+<input type="radio" name="Gender" id="male">
+<label for="male">male</label>
+
+<input type="radio" name="Gender" id="female">
+<label for="female">female</label>
+<br><br>
+
+<label for="nationality">Nationality</label>
+<input type="nationality" name="nationality" id="nationality">
+<br><br>
+
+<label for="">Language</label>
+<br><br>
+
+<input type="checkbox" name="lang" id="Hindi">
+<label for="hindi">Hindi</label>
+
+<input type="checkbox" name="lang" id="kannada">
+<label for="kannada">kannada</label>
+
+<input type="checkbox" name="lang" id="English">
+<label for="English">English</label>
+
+</fieldset>
+
+
+<fieldset>
+    <legend>Educational Details </legend>
+    <label for="">Department</label>
+    <br><br>
+
+    <input type="radio" id="cs" name="dept">
+    <label for="cs">cs</label>
+
+    <input type="radio" id="civil" name="dept">
+    <label for="civil">civil</label>
+
+    <input type="radio" id="mech" name="dept">
+    <label for="mech">mech</label>
+
+    <input type="radio" id="EE" name="dept">
+    <label for="EE">EE</label>
+    <br><br>
+    
+    <label for="yop">YOG</label>
+    <input list="yog" name="yop" id="yop">
+    <datalist id="yog">
+    <option >2018</option>
+    <option >2019</option>
+    <option >2020</option>
+    <option >2021</option>
+    <option >2022</option>
+    <option >2023</option>
+    
+    </datalist>
+<Br></Br>
+
+    
+    <label for="">Skills</label>
+    <br><br>
+
+    <input type="checkbox" name="skills" id="SQL">
+    <label for="SQL">SQL</label>
+
+    <input type="checkbox" name="skills" id="HTML">
+    <label for="HTML">HTML</label>
+
+    <input type="checkbox" name="skills" id="CSS">
+    <label for="CSS">CSS</label>
+
+    <input type="checkbox" name="skills" id="JAVASCRIPT">
+    <label for="JAVASCRIPT">JAVASCRIPT</label>
+
+
+
+
+</fieldset>
+<input type="Submit" id="one">
+   
+    </form>
+</body>
+</html>
